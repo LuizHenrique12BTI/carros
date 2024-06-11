@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --orange:#e28625;
+    --aqua:#006971;
+    --black-green:#004140;
+    --brancorgb:rgba(255, 255, 255, 0.75);
+    --off-white: #F2F2F2;
+    --white: #FFF;
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-size: 1.6rem;
+    background: var(--off-white);
+}
+
+.sedans {
+    background: var(--orange);
+    padding: 4.8rem;
+    border-top-left-radius: 4.8rem;
+    border-bottom-left-radius: 4.8rem;
+    
+}
+
+.suvs {
+    background: var(--aqua);
+    padding: 4.8rem;
+    
+}
+
+.luxury {
+    background: var(--black-green);
+    padding: 4.8rem;
+    border-top-right-radius: 4.8rem;
+    border-bottom-right-radius: 4.8rem;
+    
+}
+
+main {
+    display: flex;
+    width: 92rem; 
+}
+
+h2 {
+    font-family: "Big Shoulders Display", sans-serif;
+    margin-top: 3rem;
+    color: var(--off-white);
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+p, a {
+    font-family: "Lexend Deca", sans-serif;
+}
+
+p {
+    color: var(--white);
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    opacity: 75%;
+    padding-bottom: 8.2rem;
+}
+
+a {
+    display: block;
+    border: 2px solid var(--off-white);
+    background: var(--off-white);
+    padding: 1.2rem 4.2rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    border-radius: 2.5rem;
+    text-decoration: none;
+    width: fit-content;
+    color: var(--off-white);
+}
+
+.sedans a:hover {
+    background-color: var(--orange);
+    color: var(--off-white);
+}
+
+.suvs a:hover {
+    background-color: var(--aqua);
+    color: var(--off-white);
+}
+
+.luxury a:hover {
+    background-color: var(--black-green);
+    color: var(--off-white);
+}
+
+.sedans a {
+    color: var(--orange);
+}
+
+.suvs a {
+    color: var(--aqua);
+}
+
+.luxury a {
+    color: var(--black-green);
+}
